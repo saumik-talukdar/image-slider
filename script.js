@@ -27,7 +27,7 @@ next.addEventListener('click',function(){
     //bordersp.style.border='2px solid red';
 
     img.style='background-image : url(assets/img'+ind+'.jpg)';
-    if(ind==14){
+    if(ind===14){
         ind=0;
     }
 });
@@ -39,7 +39,7 @@ prev.addEventListener('click',function(){
     //bordersp.style.border='2px solid red';
 
     img.style='background-image : url(assets/img'+ind+'.jpg)';
-    if(ind==1){
+    if(ind===1){
         ind=15;
     }
 });
