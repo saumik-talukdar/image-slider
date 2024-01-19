@@ -22,9 +22,9 @@ let ind=1;
 
 next.addEventListener('click',function(){
     ind++;
-    borderAll.style.border='none';
-    let bordersp = document.querySelector('.i'+ind);
-    bordersp.style.border='2px solid red';
+    //borderAll.style.border='none';
+    //let bordersp = document.querySelector('.i'+ind);
+    //bordersp.style.border='2px solid red';
 
     img.style='background-image : url(assets/img'+ind+'.jpg)';
     if(ind==14){
@@ -34,9 +34,9 @@ next.addEventListener('click',function(){
 
 prev.addEventListener('click',function(){
     ind--;
-    borderAll.style.border='none';
-    let bordersp = document.querySelector('.i'+ind);
-    bordersp.style.border='2px solid red';
+    //borderAll.style.border='none';
+    //let bordersp = document.querySelector('.i'+ind);
+    //bordersp.style.border='2px solid red';
 
     img.style='background-image : url(assets/img'+ind+'.jpg)';
     if(ind==1){
